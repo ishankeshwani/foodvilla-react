@@ -6,7 +6,7 @@ export const mockRestaurants = [
           info: {
             id: "327498", name: "La Pino'z Pizza", cuisines: ["Pizzas", "Pastas", "Beverages"],
             avgRating: 4.5, costForTwo: 40000, promoted: false,
-            cloudinaryImageId:  "",
+            cloudinaryImageId:  "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=508&h=320&fit=crop",
             sla: { deliveryTime: 20 },
           }
         },
