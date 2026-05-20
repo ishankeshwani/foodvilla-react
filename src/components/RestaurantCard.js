@@ -30,7 +30,9 @@ const RestaurentCard = ({ resData }) => {
       {/* Image */}
       <div style={{ position: "relative", overflow: "hidden", height: "180px" }}>
         <img
-          src={CDN_URL + cloudinaryImageId}
+         src={cloudinaryImageId
+  ? CDN_URL + cloudinaryImageId
+  : resData.imageUrl || "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=508&h=320&fit=crop"}
           alt={name}
           onError={(e) => { e.target.src = "https://placehold.co/508x320/151515/444?text=Restaurant"; }}
           style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.4s ease" }}
