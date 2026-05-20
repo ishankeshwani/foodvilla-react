@@ -1,0 +1,35 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "This is React App",
+  "keywords": [],
+  "homepage": "https://github.com/ishankeshwani/React_App#readme",
+  "bugs": {
+    "url": "https://github.com/ishankeshwani/React_App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishankeshwani/React_App.git"
+  },
+  "license": "ISC",
+  "author": "Ishan Keshwani",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.14",
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.12.0",
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5",
+    "react-redux": "^9.3.0",
+    "react-router-dom": "^6.30.3"
+  }
+}

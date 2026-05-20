@@ -1,0 +1,10 @@
+
+{
+  "/imgproxy": {
+    "target": "https://media-assets.swiggy.com",
+    "pathRewrite": {
+      "^/imgproxy": ""
+    },
+    "changeOrigin": true
+  }
+}
